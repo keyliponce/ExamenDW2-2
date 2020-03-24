@@ -1,0 +1,139 @@
+.centerFont {
+    text-align: center;
+}
+
+.profile {
+    font-size: 200px;
+}
+
+.cardAvatar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.md .card-content-padding {
+    padding: 10% !important;
+}
+
+p {
+    margin: 0px 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.list-menu img {
+    width: 100px;
+}
+
+.list-menu {
+    margin-top: 0 !important;
+    color: #C7C7C7;
+    font-size: 14px !important;
+}
+
+.list-menu .item-header {
+    color: #827B76;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    margin-bottom: 2px;
+}
+
+.list-menu .item-footer {
+    color: #1AA575 !important;
+    font-weight: 400 !important;
+    margin: 2px 0;
+}
+
+.card-header h3 {
+    color: #5C5C5E !important;
+    font-size: 16px !important;
+    margin: 0;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-content img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.card-footer {
+    color: #0d9f67 !important;
+    font-weight: 400 !important;
+}
+
+.img-center {
+    margin: 20px auto;
+    display: block
+}
+
+.button {
+    margin-bottom: 5px !important;
+    text-transform: inherit !important;
+}
+
+.btn-verde {
+    background-color: #0d9f67 !important;
+    color: #fff !important;
+    display: block !important;
+    text-align: center;
+    width: 100%;
+    border-radius: 0 !important;
+}
+
+.btn-gris {
+    background-color: #fff !important;
+    color: #5C5C5E !important;
+    display: block !important;
+    text-align: center;
+    width: 100%;
+    border-radius: 0 !important;
+    border: 1px solid #ccc !important;
+}
+
+.navbar,
+.toolbar {
+    background-color: rgb(84, 84, 238) !important;
+}
+
+.navbar a,
+.toolbar a {
+    color: #fff !important;
+}
+
+a {
+    color: rgb(83, 86, 235) !important;
+}
+
+.swiper-wrapper img {
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+}
+
+.popup-confirm {
+    color: #ccc;
+    text-align: center;
+}
+
+.icon-done {
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 100%;
+    background-color: #c9f4c9;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.icon-done i {
+    font-size: 60px;
+}

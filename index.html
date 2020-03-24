@@ -1,0 +1,219 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar</title>
+    <link href="css/framework7.min.css" rel="stylesheet">
+    <link href="css/material-icons.css" rel="stylesheet">
+    <link href="css/f7-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="color-theme-orange">
+
+    <div id="app">
+        <!-- Statusbar overlay -->
+        <div class="statusbar"></div>
+
+        <section class="panel panel-left panel-cover">
+            <h3 class="block-title">Menú Navegación</h3>
+            <div class="block">
+                <article class="list">
+                    <ul>
+                        <li>
+                            <a href="/perfil/" class="item-link item-content panel-close">
+                                <div class="item-media">
+                                    <i class="far fa-user"></i>
+                                </div>
+                                <div class="item-inner">
+                                    Perfil
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/cerveza/" class="item-link item-content panel-close">
+                                <div class="item-media">
+                                    <i class="fas fa-beer"></i>
+                                </div>
+                                <div class="item-inner">
+                                    Cerveza
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/vinos/" class="item-link item-content panel-close">
+                                <div class="item-media">
+                                    <i class="fas fa-wine-bottle"></i>
+                                </div>
+                                <div class="item-inner">
+                                    Vinos
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/licores/" class="item-link item-content panel-close">
+                                <div class="item-media">
+                                    <i class="fas fa-cocktail"></i>
+                                </div>
+                                <div class="item-inner">
+                                    Licores
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/bebidas/" class="item-link item-content panel-close">
+                                <div class="item-media">
+                                    <i class="fas fa-glass-whiskey"></i>
+                                </div>
+                                <div class="item-inner">
+                                    Bebidas sin Alcohol
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/comida/" class="item-link item-content panel-close">
+                                <div class="item-media">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                                <div class="item-inner">
+                                    Comida
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+
+        <div class="view view-main view-init">
+            <!-- Initial Page, "data-name" contains page name -->
+            <section data-name="home" class="page">
+
+                <!-- Top Navbar -->
+                <nav class="navbar">
+                    <div class="navbar-inner">
+                        <div class="left">
+                            <a href="#" class="link panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+                        </div>
+                        <div class="title">Menu</div>
+                    </div>
+                </nav>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+
+
+                    <div class="card">
+                        <div class="card-content imageCard">
+                            <a href="/cerveza/">
+                                <img src="img/salva-vida-beer.jpg" class="imageCard">
+                            </a>
+
+                        </div>
+                        <div class="card-footer">
+                            <h2>Cerveza</h2>
+                            <p>Rango Precios: Lps.50 - Lps.100</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content imageCard">
+                            <a href="/vinos/">
+                                <img src="img/vino.jpg" class="imageCard">
+                            </a>
+
+                        </div>
+                        <div class="card-footer">
+                            <h2>Vinos</h2>
+                            <p>Rango Precios: Lps.150 - Lps.500</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content imageCard">
+                            <a href="/licores/">
+                                <img src="img/tatascan-honduras.jpg" class="imageCard">
+                            </a>
+
+                        </div>
+                        <div class="card-footer">
+                            <h2>Licores</h2>
+                            <p>Rango Precios: Lps.100 - Lps.1000</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content imageCard">
+                            <a href="/bebidas/">
+                                <img src="img/refrescos.jpg" class="imageCard">
+                            </a>
+
+                        </div>
+                        <div class="card-footer">
+                            <h2>Bebidas No Alcoholicas</h2>
+                            <p>Rango Precios: Lps.20 - Lps.100</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-content imageCard">
+                            <a href="/comida/">
+                                <img src="img/alitas.jpg" class="imageCard">
+                            </a>
+
+                        </div>
+                        <div class="card-footer">
+                            <h2>Comida</h2>
+                            <p>Rango Precios: Lps.150 - Lps.500</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /page-content -->
+
+            </section>
+
+
+        </div>
+    </div>
+
+
+
+    <article class="popup popup-confirm">
+
+        <div class="view">
+            <div class="page">
+                <div class="page-content">
+
+                    <div class="block">
+
+                        <div class="icon-done">
+                            <i class="material-icons">done</i>
+                        </div>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, error!</p>
+
+                        <div class="row">
+                            <a href="/home/" class="link button button-fill btn-verde popup-close">Thanks for your Order</a>
+                            <a href="/coffee/" class="link button btn-gris popup-close">Continue Shopping</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+    </article>
+
+
+    <script src="js/framework7.min.js"></script>
+    <script src="js/my-app.js"></script>
+
+</body>
+
+</html>
